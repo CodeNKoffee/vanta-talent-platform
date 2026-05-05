@@ -1,0 +1,33 @@
+.page {
+  flex: 1;
+  padding-bottom: var(--sp-20);
+}
+
+.directory {
+  padding-top: var(--sp-12);
+  scroll-margin-top: 72px;
+}
+
+.dirHeader {
+  margin-bottom: var(--sp-6);
+}
+
+.dirTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-medium);
+  color: var(--c-text-1);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--sp-2);
+}
+
+.dirSub {
+  font-size: var(--text-sm);
+  color: var(--c-text-2);
+}
+
+@media (max-width: 640px) {
+  .dirHeader {
+    text-align: center;
+  }
+}

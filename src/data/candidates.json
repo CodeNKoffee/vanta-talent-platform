@@ -1,0 +1,981 @@
+[
+  {
+    "id": "c001",
+    "fullName": "Layla Hassan",
+    "headline": "Senior Frontend Engineer | React · TypeScript · Design Systems",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 6,
+    "seniority": "Senior",
+    "skills": ["React", "TypeScript", "CSS-in-JS", "Storybook", "Next.js", "Figma"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-28",
+    "status": "Open to work",
+    "score": 92,
+    "about": "Frontend engineer with 6 years building high-impact products at Egyptian and MENA-region startups. Obsessed with component architecture, accessibility, and design-engineering collaboration. Core contributor to two open-source design systems.",
+    "experience": [
+      {
+        "id": "e1-1",
+        "company": "Instabug",
+        "title": "Senior Frontend Engineer",
+        "period": "2022 – Present",
+        "description": "Led the SDK dashboard redesign serving 25K+ developers. Architected a Storybook-driven component library with 60+ components. Reduced bundle size by 38% through code splitting and lazy loading."
+      },
+      {
+        "id": "e1-2",
+        "company": "Breadfast",
+        "title": "Frontend Engineer",
+        "period": "2020 – 2022",
+        "description": "Built the customer-facing Next.js storefront from scratch. Introduced TypeScript across the frontend codebase and defined migration playbook for the team."
+      },
+      {
+        "id": "e1-3",
+        "company": "Freelance",
+        "title": "Frontend Consultant",
+        "period": "2019 – 2020",
+        "description": "Delivered custom web applications for 8 clients across fintech and e-commerce verticals."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Cairo University",
+      "year": "2019"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$4,000 – $5,500 / month",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com"
+  },
+  {
+    "id": "c002",
+    "fullName": "Omar Farouk",
+    "headline": "Full Stack Engineer | Node.js · React · PostgreSQL",
+    "location": "Alexandria, Egypt",
+    "yearsOfExperience": 4,
+    "seniority": "Mid",
+    "skills": ["Node.js", "React", "PostgreSQL", "Docker", "Redis", "GraphQL"],
+    "availability": "2 weeks",
+    "updatedAt": "2025-04-15",
+    "status": "Interviewing",
+    "score": 78,
+    "about": "Full stack engineer who thrives on building scalable APIs and clean UI layers. Shipped 3 production SaaS products end-to-end and comfortable owning the full delivery lifecycle.",
+    "experience": [
+      {
+        "id": "e2-1",
+        "company": "Paymob",
+        "title": "Full Stack Engineer",
+        "period": "2023 – Present",
+        "description": "Built payment reconciliation microservice handling 500K daily transactions. Developed merchant-facing dashboard with real-time analytics using React and WebSockets."
+      },
+      {
+        "id": "e2-2",
+        "company": "Vezeeta",
+        "title": "Backend Engineer",
+        "period": "2021 – 2023",
+        "description": "Designed appointment scheduling API and notification pipeline serving 1M+ users. Reduced API response times by 45% through query optimisation and caching."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Software Engineering",
+      "institution": "Alexandria University",
+      "year": "2021"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$3,000 – $4,000 / month",
+    "github": "https://github.com"
+  },
+  {
+    "id": "c003",
+    "fullName": "Nour Khalil",
+    "headline": "Mobile Engineer | React Native · Expo · iOS · Android",
+    "location": "Beirut, Lebanon",
+    "yearsOfExperience": 3,
+    "seniority": "Mid",
+    "skills": ["React Native", "Expo", "TypeScript", "Firebase", "Redux Toolkit"],
+    "availability": "Immediate",
+    "updatedAt": "2025-05-01",
+    "status": "Open to work",
+    "score": 71,
+    "about": "Mobile-first engineer with a track record of delivering polished cross-platform apps. Worked across fintech and health-tech domains, with deep experience in push notifications, offline-first architecture, and app store deployment.",
+    "experience": [
+      {
+        "id": "e3-1",
+        "company": "liwwa",
+        "title": "Mobile Engineer",
+        "period": "2023 – 2025",
+        "description": "Built the investor-facing mobile app from zero to 10K+ downloads. Implemented biometric authentication and end-to-end encryption for financial data."
+      },
+      {
+        "id": "e3-2",
+        "company": "Okadoc",
+        "title": "Junior React Native Developer",
+        "period": "2022 – 2023",
+        "description": "Maintained and extended a telemedicine mobile app. Integrated video consultation SDK and improved app startup time by 60%."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Information Technology",
+      "institution": "American University of Beirut",
+      "year": "2022"
+    },
+    "languages": ["Arabic", "English", "French"],
+    "salaryExpectation": "$2,500 – $3,500 / month"
+  },
+  {
+    "id": "c004",
+    "fullName": "Ahmed Saber",
+    "headline": "Backend Engineer | Go · Node.js · Distributed Systems",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 7,
+    "seniority": "Senior",
+    "skills": ["Go", "Node.js", "Kafka", "Kubernetes", "PostgreSQL", "gRPC"],
+    "availability": "3 months",
+    "updatedAt": "2025-03-10",
+    "status": "Not looking",
+    "score": 88,
+    "about": "Backend systems engineer specialising in high-throughput distributed architectures. Designed event-driven systems processing millions of messages daily. Mentor and technical lead for backend guilds.",
+    "experience": [
+      {
+        "id": "e4-1",
+        "company": "Fawry",
+        "title": "Lead Backend Engineer",
+        "period": "2021 – Present",
+        "description": "Led backend architecture for a real-time payment routing system processing $2B+ annually. Migrated monolith to microservices, reducing deployment frequency from monthly to daily."
+      },
+      {
+        "id": "e4-2",
+        "company": "Swvl",
+        "title": "Backend Engineer",
+        "period": "2019 – 2021",
+        "description": "Built ride-matching and dynamic pricing engines for 100K daily rides. Wrote high-performance Go services replacing Python bottlenecks."
+      },
+      {
+        "id": "e4-3",
+        "company": "Valeo",
+        "title": "Software Engineer",
+        "period": "2018 – 2019",
+        "description": "Developed embedded software data collection pipelines for automotive R&D."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Engineering",
+      "institution": "Ain Shams University",
+      "year": "2018"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$6,000 – $8,000 / month",
+    "github": "https://github.com"
+  },
+  {
+    "id": "c005",
+    "fullName": "Sara Mostafa",
+    "headline": "Frontend Engineer | UI Systems · Accessibility · React",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 5,
+    "seniority": "Senior",
+    "skills": ["React", "TypeScript", "WCAG", "Radix UI", "Tailwind CSS", "Vite"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-30",
+    "status": "Open to work",
+    "score": 85,
+    "about": "Frontend engineer with a strong accessibility focus. Built WCAG 2.1 AA-compliant interfaces for government and enterprise clients. Passionate about bridging the gap between design tokens and production code.",
+    "experience": [
+      {
+        "id": "e5-1",
+        "company": "Elsevier",
+        "title": "Senior Frontend Engineer",
+        "period": "2022 – Present",
+        "description": "Owned accessibility audit and remediation across 3 enterprise SaaS products. Built shared component library adopted by 12 teams globally."
+      },
+      {
+        "id": "e5-2",
+        "company": "ITWorx",
+        "title": "Frontend Developer",
+        "period": "2020 – 2022",
+        "description": "Developed accessible government portal serving 500K+ monthly users. Conducted regular ARIA audits using axe-core and screen reader testing."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Science",
+      "institution": "German University in Cairo",
+      "year": "2020"
+    },
+    "languages": ["Arabic", "English", "German"],
+    "salaryExpectation": "$4,500 – $6,000 / month",
+    "portfolio": "https://portfolio.example.com"
+  },
+  {
+    "id": "c006",
+    "fullName": "Karim Adel",
+    "headline": "Platform / DevOps Engineer | Kubernetes · Terraform · AWS",
+    "location": "Dubai, UAE",
+    "yearsOfExperience": 8,
+    "seniority": "Senior",
+    "skills": ["Kubernetes", "Terraform", "AWS", "ArgoCD", "Prometheus", "Helm"],
+    "availability": "1 month",
+    "updatedAt": "2025-04-05",
+    "status": "Interviewing",
+    "score": 81,
+    "about": "Platform engineer building internal developer platforms and cloud-native infrastructure. Reduced infrastructure costs by 35% through right-sizing and spot instance strategies at previous roles.",
+    "experience": [
+      {
+        "id": "e6-1",
+        "company": "Careem",
+        "title": "Senior Platform Engineer",
+        "period": "2021 – Present",
+        "description": "Designed and maintained multi-region Kubernetes clusters serving 50M+ users. Built GitOps CI/CD pipelines reducing deployment lead time from 2 days to 20 minutes."
+      },
+      {
+        "id": "e6-2",
+        "company": "Souq / Amazon",
+        "title": "DevOps Engineer",
+        "period": "2017 – 2021",
+        "description": "Managed AWS infrastructure for one of MENA's largest e-commerce platforms. Led migration from bare-metal to EKS, improving reliability from 99.5% to 99.95%."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Network Engineering",
+      "institution": "Cairo University",
+      "year": "2017"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$7,000 – $9,000 / month"
+  },
+  {
+    "id": "c007",
+    "fullName": "Menna Tawfik",
+    "headline": "Data Engineer | dbt · Spark · Airflow · Snowflake",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 3,
+    "seniority": "Mid",
+    "skills": ["Python", "dbt", "Apache Spark", "Airflow", "Snowflake", "SQL"],
+    "availability": "Immediate",
+    "updatedAt": "2025-05-02",
+    "status": "Open to work",
+    "score": 66,
+    "about": "Data engineer building reliable, observable data pipelines for analytics and ML use cases. Strong SQL background with experience transforming raw event streams into clean data products.",
+    "experience": [
+      {
+        "id": "e7-1",
+        "company": "Rabbit",
+        "title": "Data Engineer",
+        "period": "2023 – Present",
+        "description": "Built end-to-end data pipelines ingesting 50M+ events daily. Modelled data warehouse using dbt, enabling self-serve analytics for 30+ business stakeholders."
+      },
+      {
+        "id": "e7-2",
+        "company": "MENA Alliances",
+        "title": "Data Analyst",
+        "period": "2022 – 2023",
+        "description": "Created executive-level dashboards and automated reporting pipelines, saving 20+ hours of manual work weekly."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Statistics & Computer Science",
+      "institution": "Cairo University",
+      "year": "2022"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$2,500 – $3,500 / month"
+  },
+  {
+    "id": "c008",
+    "fullName": "Youssef Nabil",
+    "headline": "ML Engineer | LLMs · PyTorch · MLOps · Python",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 5,
+    "seniority": "Senior",
+    "skills": ["Python", "PyTorch", "HuggingFace", "MLflow", "FastAPI", "LangChain"],
+    "availability": "3 months",
+    "updatedAt": "2025-02-20",
+    "status": "Not looking",
+    "score": 89,
+    "about": "ML engineer at the intersection of research and production. Published research on Arabic NLP at ACL and deployed LLM-powered products serving millions. Strong experience taking models from notebook to scalable inference APIs.",
+    "experience": [
+      {
+        "id": "e8-1",
+        "company": "Khumul AI",
+        "title": "Senior ML Engineer",
+        "period": "2022 – Present",
+        "description": "Led development of Arabic large language model fine-tuning pipelines. Built inference API serving 5M+ requests daily with P99 < 200ms."
+      },
+      {
+        "id": "e8-2",
+        "company": "Microsoft (Egypt Innovation Lab)",
+        "title": "ML Research Engineer",
+        "period": "2020 – 2022",
+        "description": "Researched cross-lingual document understanding models. Co-authored 2 papers accepted at ACL and EMNLP."
+      }
+    ],
+    "education": {
+      "degree": "M.Sc. Artificial Intelligence",
+      "institution": "Cairo University",
+      "year": "2020"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$6,000 – $8,500 / month",
+    "github": "https://github.com"
+  },
+  {
+    "id": "c009",
+    "fullName": "Rana Ibrahim",
+    "headline": "Frontend Developer | Vue · Nuxt · Tailwind CSS",
+    "location": "Remote",
+    "yearsOfExperience": 2,
+    "seniority": "Junior",
+    "skills": ["Vue 3", "Nuxt", "Tailwind CSS", "JavaScript", "Pinia"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-22",
+    "status": "Open to work",
+    "score": 58,
+    "about": "Junior frontend developer with strong Vue ecosystem knowledge. Built and shipped two SaaS products in the last year. Eager to grow in a product-focused team with senior mentorship.",
+    "experience": [
+      {
+        "id": "e9-1",
+        "company": "Taskify (Startup)",
+        "title": "Frontend Developer",
+        "period": "2024 – Present",
+        "description": "Built project management app UI in Nuxt 3. Implemented real-time collaborative features using Supabase Realtime."
+      },
+      {
+        "id": "e9-2",
+        "company": "Nile Digital Agency",
+        "title": "Junior Frontend Developer",
+        "period": "2023 – 2024",
+        "description": "Delivered marketing sites and landing pages for 12 clients. Introduced component-driven development with Storybook."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Information Systems",
+      "institution": "Helwan University",
+      "year": "2023"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$1,500 – $2,200 / month"
+  },
+  {
+    "id": "c010",
+    "fullName": "Tarek Samir",
+    "headline": "Staff Full Stack Engineer | React · Node · System Design",
+    "location": "London, UK",
+    "yearsOfExperience": 9,
+    "seniority": "Principal",
+    "skills": ["React", "Node.js", "TypeScript", "System Design", "AWS", "MongoDB"],
+    "availability": "3 months",
+    "updatedAt": "2025-03-28",
+    "status": "Not looking",
+    "score": 94,
+    "about": "Staff engineer with 9 years across fintech, marketplace, and developer tooling. Led architecture decisions for systems processing billions in GMV. Mentor to 20+ engineers and active conference speaker.",
+    "experience": [
+      {
+        "id": "e10-1",
+        "company": "Revolut",
+        "title": "Staff Engineer",
+        "period": "2022 – Present",
+        "description": "Technical lead for crypto trading feature serving 4M+ users. Defined architectural patterns adopted across 8 engineering teams."
+      },
+      {
+        "id": "e10-2",
+        "company": "Deliveroo",
+        "title": "Senior Full Stack Engineer",
+        "period": "2019 – 2022",
+        "description": "Built restaurant onboarding platform used in 10 countries. Led migration of critical ordering service to serverless, reducing costs by 60%."
+      },
+      {
+        "id": "e10-3",
+        "company": "Jumia",
+        "title": "Full Stack Engineer",
+        "period": "2016 – 2019",
+        "description": "Early engineer on seller portal serving 100K+ merchants across Africa."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Cairo University",
+      "year": "2016"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$10,000 – $13,000 / month",
+    "linkedin": "https://linkedin.com"
+  },
+  {
+    "id": "c011",
+    "fullName": "Dina Fouad",
+    "headline": "Technical Product Manager | APIs · Developer Tooling · Agile",
+    "location": "Berlin, Germany",
+    "yearsOfExperience": 6,
+    "seniority": "Senior",
+    "skills": ["Product Strategy", "API Design", "Roadmapping", "SQL", "Figma", "JIRA"],
+    "availability": "1 month",
+    "updatedAt": "2025-04-18",
+    "status": "Open to work",
+    "score": 79,
+    "about": "Technical PM with an engineering background in developer-facing products and API platforms. Shipped 4 major product launches and grew API adoption from 0 to 50K developers.",
+    "experience": [
+      {
+        "id": "e11-1",
+        "company": "Contentful",
+        "title": "Senior Product Manager",
+        "period": "2022 – Present",
+        "description": "Owned the App Framework developer platform. Grew ecosystem from 30 to 300+ apps. Launched GraphQL API to GA, adopted by 40% of enterprise customers."
+      },
+      {
+        "id": "e11-2",
+        "company": "Zalando",
+        "title": "Product Manager",
+        "period": "2019 – 2022",
+        "description": "Led checkout optimisation squad, reducing cart abandonment by 18% across 17 markets."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Engineering",
+      "institution": "Cairo University",
+      "year": "2019"
+    },
+    "languages": ["Arabic", "English", "German"],
+    "salaryExpectation": "$7,000 – $9,000 / month"
+  },
+  {
+    "id": "c012",
+    "fullName": "Mostafa Gamal",
+    "headline": "Mobile Engineer | React Native · Performance · Animations",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 4,
+    "seniority": "Mid",
+    "skills": ["React Native", "Reanimated", "TypeScript", "iOS", "Android", "Firebase"],
+    "availability": "2 weeks",
+    "updatedAt": "2025-04-01",
+    "status": "Hired",
+    "score": 73,
+    "about": "React Native specialist focused on silky animations and performance. Published a popular Reanimated gesture library with 800+ GitHub stars.",
+    "experience": [
+      {
+        "id": "e12-1",
+        "company": "Halan",
+        "title": "Mobile Engineer",
+        "period": "2022 – 2025",
+        "description": "Built in-app wallet and ride experience for 3M+ users. Achieved 60fps animations throughout the app using Reanimated 3 worklets."
+      },
+      {
+        "id": "e12-2",
+        "company": "El Menus",
+        "title": "Junior Mobile Developer",
+        "period": "2021 – 2022",
+        "description": "Maintained and enhanced restaurant discovery app for the Egyptian market."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Mansoura University",
+      "year": "2021"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$3,000 – $4,000 / month",
+    "github": "https://github.com"
+  },
+  {
+    "id": "c013",
+    "fullName": "Heba Ragab",
+    "headline": "QA Engineer | Playwright · Cypress · Test Strategy",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 5,
+    "seniority": "Senior",
+    "skills": ["Playwright", "Cypress", "TypeScript", "API Testing", "k6", "JIRA"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-25",
+    "status": "Open to work",
+    "score": 67,
+    "about": "Quality engineer passionate about building confidence in software through thoughtful test strategy. Introduced shift-left testing practices that caught 80% of bugs before production.",
+    "experience": [
+      {
+        "id": "e13-1",
+        "company": "Sary",
+        "title": "Senior QA Engineer",
+        "period": "2022 – Present",
+        "description": "Designed end-to-end test framework using Playwright covering 200+ critical user flows. Implemented performance testing suite that uncovered 3 major database bottlenecks."
+      },
+      {
+        "id": "e13-2",
+        "company": "Vodafone Egypt",
+        "title": "QA Engineer",
+        "period": "2020 – 2022",
+        "description": "Automated regression suite for telecom billing system, reducing regression cycle from 5 days to 4 hours."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Ain Shams University",
+      "year": "2020"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$3,000 – $4,500 / month"
+  },
+  {
+    "id": "c014",
+    "fullName": "Amr Hassan",
+    "headline": "Backend Engineer | Python · FastAPI · Event-Driven Systems",
+    "location": "Amsterdam, Netherlands",
+    "yearsOfExperience": 6,
+    "seniority": "Senior",
+    "skills": ["Python", "FastAPI", "Celery", "Redis", "PostgreSQL", "Docker"],
+    "availability": "1 month",
+    "updatedAt": "2025-04-12",
+    "status": "Interviewing",
+    "score": 82,
+    "about": "Backend engineer specialising in async Python and event-driven architectures. Built data-intensive APIs for fintech and logistics clients across Europe and MENA.",
+    "experience": [
+      {
+        "id": "e14-1",
+        "company": "Adyen",
+        "title": "Backend Engineer",
+        "period": "2022 – Present",
+        "description": "Developed payment dispute resolution microservice handling 100K cases monthly. Contributed to internal Python tooling used by 200+ engineers."
+      },
+      {
+        "id": "e14-2",
+        "company": "Bosta",
+        "title": "Backend Engineer",
+        "period": "2019 – 2022",
+        "description": "Built logistics tracking API and webhook system serving 5K+ merchants. Reduced tracking event latency from 30s to under 3s using Kafka."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Software Engineering",
+      "institution": "Cairo University",
+      "year": "2019"
+    },
+    "languages": ["Arabic", "English", "Dutch (A2)"],
+    "salaryExpectation": "$7,500 – $10,000 / month"
+  },
+  {
+    "id": "c015",
+    "fullName": "Mariam Lotfy",
+    "headline": "Junior Frontend Developer | React · JavaScript · CSS",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 1,
+    "seniority": "Junior",
+    "skills": ["React", "JavaScript", "CSS3", "HTML5", "Git"],
+    "availability": "Immediate",
+    "updatedAt": "2025-05-03",
+    "status": "Open to work",
+    "score": 45,
+    "about": "Recent graduate eager to join a product team and grow fast. Built 5 personal projects including a recipe app with offline support and a budget tracker with charts.",
+    "experience": [
+      {
+        "id": "e15-1",
+        "company": "Orange Digital Center",
+        "title": "Frontend Trainee",
+        "period": "2024 – 2025",
+        "description": "Completed 6-month intensive program. Built 3 team projects, contributed a reusable form validation hook used by all trainees."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Information Technology",
+      "institution": "Helwan University",
+      "year": "2024"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$800 – $1,200 / month"
+  },
+  {
+    "id": "c016",
+    "fullName": "Salma Khaled",
+    "headline": "Product Designer | Figma · Design Systems · User Research",
+    "location": "Dubai, UAE",
+    "yearsOfExperience": 4,
+    "seniority": "Mid",
+    "skills": ["Figma", "Design Systems", "User Research", "Prototyping", "Framer"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-29",
+    "status": "Open to work",
+    "score": 76,
+    "about": "Product designer with a focus on data-informed UX and design systems at scale. Ran 50+ user research sessions and shipped design systems used by 8 engineering teams.",
+    "experience": [
+      {
+        "id": "e16-1",
+        "company": "talabat",
+        "title": "Product Designer",
+        "period": "2023 – Present",
+        "description": "Redesigned the restaurant partner portal reducing task completion time by 32%. Built and maintained design system with 400+ tokens in Figma."
+      },
+      {
+        "id": "e16-2",
+        "company": "Fetchr",
+        "title": "UI/UX Designer",
+        "period": "2021 – 2023",
+        "description": "Designed logistics tracking interfaces for B2B and B2C products across 6 markets."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Graphic Design",
+      "institution": "AUC",
+      "year": "2021"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$4,500 – $6,000 / month",
+    "portfolio": "https://portfolio.example.com"
+  },
+  {
+    "id": "c017",
+    "fullName": "Ziad Mahmoud",
+    "headline": "Systems Engineer | Rust · Go · High-Performance Backends",
+    "location": "Remote",
+    "yearsOfExperience": 7,
+    "seniority": "Senior",
+    "skills": ["Rust", "Go", "WebAssembly", "NATS", "PostgreSQL", "Linux"],
+    "availability": "3 months",
+    "updatedAt": "2025-01-15",
+    "status": "Not looking",
+    "score": 91,
+    "about": "Systems engineer who writes software that goes fast. Core contributor to a Rust-based database engine. Speaker at RustConf 2024. Specialises in storage engines, networking, and protocol design.",
+    "experience": [
+      {
+        "id": "e17-1",
+        "company": "TigerBeetle",
+        "title": "Software Engineer",
+        "period": "2022 – Present",
+        "description": "Core contributor to the TigerBeetle financial database written in Zig/Rust. Implemented multi-paxos consensus and VOPR testing simulator."
+      },
+      {
+        "id": "e17-2",
+        "company": "Cloudflare",
+        "title": "Systems Engineer",
+        "period": "2019 – 2022",
+        "description": "Worked on Cloudflare Workers runtime team, contributing Rust-based isolate lifecycle management. Handled 30M+ requests per second."
+      },
+      {
+        "id": "e17-3",
+        "company": "Freelance",
+        "title": "Systems Consultant",
+        "period": "2018 – 2019",
+        "description": "High-performance systems consulting for 4 clients across networking and databases."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Engineering",
+      "institution": "Cairo University",
+      "year": "2018"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$9,000 – $12,000 / month",
+    "github": "https://github.com"
+  },
+  {
+    "id": "c018",
+    "fullName": "Nada Sherif",
+    "headline": "Data Scientist | ML · NLP · Python · scikit-learn",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 3,
+    "seniority": "Mid",
+    "skills": ["Python", "scikit-learn", "NLP", "Pandas", "SQL", "Tableau"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-27",
+    "status": "Open to work",
+    "score": 69,
+    "about": "Data scientist with specialisation in NLP for Arabic and multilingual content. Experience in churn prediction, recommendation systems, and A/B testing infrastructure.",
+    "experience": [
+      {
+        "id": "e18-1",
+        "company": "Waseet",
+        "title": "Data Scientist",
+        "period": "2023 – Present",
+        "description": "Built Arabic text classification model achieving 91% accuracy for ad moderation. Deployed recommendation system that increased listing views by 22%."
+      },
+      {
+        "id": "e18-2",
+        "company": "Cairo Analytics",
+        "title": "Junior Data Analyst",
+        "period": "2022 – 2023",
+        "description": "Developed retail sales forecasting models and automated weekly reporting pipelines."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Mathematics & Computer Science",
+      "institution": "Cairo University",
+      "year": "2022"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$2,500 – $3,500 / month"
+  },
+  {
+    "id": "c019",
+    "fullName": "Mohamed Wael",
+    "headline": "Full Stack Engineer | React · Laravel · MySQL",
+    "location": "Riyadh, Saudi Arabia",
+    "yearsOfExperience": 5,
+    "seniority": "Mid",
+    "skills": ["React", "Laravel", "PHP", "MySQL", "Redis", "REST APIs"],
+    "availability": "2 weeks",
+    "updatedAt": "2025-04-20",
+    "status": "Interviewing",
+    "score": 77,
+    "about": "Full stack engineer with deep Laravel and React experience in B2B SaaS. Shipped 3 products from 0 to 1 for Saudi and Egyptian markets.",
+    "experience": [
+      {
+        "id": "e19-1",
+        "company": "Lean Technologies",
+        "title": "Full Stack Engineer",
+        "period": "2022 – Present",
+        "description": "Built open banking integration dashboard with real-time bank connection status for 500+ enterprise clients. Developed webhook management UI and notification system."
+      },
+      {
+        "id": "e19-2",
+        "company": "Dsquares",
+        "title": "Backend Developer",
+        "period": "2020 – 2022",
+        "description": "Developed loyalty platform API serving 2M+ users across 15 merchant programs."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Science",
+      "institution": "Ain Shams University",
+      "year": "2020"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$3,500 – $5,000 / month"
+  },
+  {
+    "id": "c020",
+    "fullName": "Farah Essam",
+    "headline": "Frontend Developer | Angular · RxJS · Enterprise UI",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 2,
+    "seniority": "Junior",
+    "skills": ["Angular", "TypeScript", "RxJS", "NgRx", "SCSS", "Jest"],
+    "availability": "Immediate",
+    "updatedAt": "2025-05-01",
+    "status": "Open to work",
+    "score": 54,
+    "about": "Angular developer with a background in enterprise software. Comfortable with complex state management using RxJS and NgRx. Looking for a product team where I can grow beyond enterprise tooling.",
+    "experience": [
+      {
+        "id": "e20-1",
+        "company": "IBM Egypt",
+        "title": "Frontend Developer",
+        "period": "2023 – Present",
+        "description": "Developed internal tooling dashboards for IBM Cloud operations. Introduced Jest unit testing, bringing coverage from 0% to 65%."
+      },
+      {
+        "id": "e20-2",
+        "company": "Digital MENA",
+        "title": "Junior Angular Developer",
+        "period": "2022 – 2023",
+        "description": "Built data visualisation components for business intelligence platform."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Information Systems",
+      "institution": "Cairo University",
+      "year": "2022"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$1,500 – $2,200 / month"
+  },
+  {
+    "id": "c021",
+    "fullName": "Adam Mustafa",
+    "headline": "Principal DevOps · Platform Engineering · FinOps",
+    "location": "London, UK",
+    "yearsOfExperience": 10,
+    "seniority": "Principal",
+    "skills": ["AWS", "GCP", "Terraform", "Kubernetes", "Python", "FinOps"],
+    "availability": "3 months",
+    "updatedAt": "2025-02-10",
+    "status": "Not looking",
+    "score": 95,
+    "about": "Principal platform engineer with 10 years building and operating large-scale cloud infrastructure. Led FinOps initiatives saving $4M+ annually. Architect of developer platforms adopted by 500+ engineers.",
+    "experience": [
+      {
+        "id": "e21-1",
+        "company": "Wise",
+        "title": "Principal Platform Engineer",
+        "period": "2020 – Present",
+        "description": "Built internal developer platform on top of Kubernetes serving 700+ engineers. Achieved 99.99% SLA on core transfer service. Saved $4.2M in cloud costs through FinOps programme."
+      },
+      {
+        "id": "e21-2",
+        "company": "Skyscanner",
+        "title": "Senior DevOps Engineer",
+        "period": "2017 – 2020",
+        "description": "Managed GCP infrastructure for travel search engine handling 100M+ monthly searches. Led on-call culture reform reducing MTTR from 2 hours to 12 minutes."
+      },
+      {
+        "id": "e21-3",
+        "company": "Vodafone",
+        "title": "Systems Engineer",
+        "period": "2015 – 2017",
+        "description": "Maintained telecoms infrastructure and automation tooling across 3 markets."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Engineering",
+      "institution": "Cairo University",
+      "year": "2015"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$12,000 – $15,000 / month"
+  },
+  {
+    "id": "c022",
+    "fullName": "Reem Abdullah",
+    "headline": "iOS Engineer | Swift · SwiftUI · MVVM",
+    "location": "Dubai, UAE",
+    "yearsOfExperience": 6,
+    "seniority": "Senior",
+    "skills": ["Swift", "SwiftUI", "UIKit", "Core Data", "Combine", "Xcode"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-26",
+    "status": "Open to work",
+    "score": 83,
+    "about": "iOS engineer with a sharp eye for native UX patterns and platform performance. Shipped 6 apps with 4.7+ App Store ratings. Strong SwiftUI skills with proven UIKit migration experience.",
+    "experience": [
+      {
+        "id": "e22-1",
+        "company": "noon",
+        "title": "Senior iOS Engineer",
+        "period": "2022 – Present",
+        "description": "Led iOS checkout revamp that increased conversion by 15% for $500M+ annual GMV. Migrated core navigation from UIKit to SwiftUI with zero regression."
+      },
+      {
+        "id": "e22-2",
+        "company": "Dubizzle",
+        "title": "iOS Developer",
+        "period": "2019 – 2022",
+        "description": "Built real estate search features for 5M+ monthly active iOS users. Implemented ML-powered smart search suggestions."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Science",
+      "institution": "American University of Sharjah",
+      "year": "2019"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$7,000 – $9,500 / month"
+  },
+  {
+    "id": "c023",
+    "fullName": "Sherif Elias",
+    "headline": "Backend Engineer | Java · Spring Boot · Microservices",
+    "location": "Cairo, Egypt",
+    "yearsOfExperience": 8,
+    "seniority": "Senior",
+    "skills": ["Java", "Spring Boot", "Kafka", "Cassandra", "Docker", "JUnit"],
+    "availability": "3 months",
+    "updatedAt": "2025-03-05",
+    "status": "Not looking",
+    "score": 86,
+    "about": "Java backend engineer with deep expertise in high-availability microservices and event sourcing. Designed resilient systems with complex business logic for banking and insurance domains.",
+    "experience": [
+      {
+        "id": "e23-1",
+        "company": "CIB Bank",
+        "title": "Lead Backend Engineer",
+        "period": "2020 – Present",
+        "description": "Architected core banking microservices platform processing 2M+ daily transactions. Designed CQRS event sourcing implementation for audit-critical operations."
+      },
+      {
+        "id": "e23-2",
+        "company": "Giza Systems",
+        "title": "Senior Java Developer",
+        "period": "2017 – 2020",
+        "description": "Built insurance policy management system for 500K+ policyholders. Led team of 5 engineers, delivered 3 major releases on time."
+      },
+      {
+        "id": "e23-3",
+        "company": "Ericsson Egypt",
+        "title": "Software Engineer",
+        "period": "2016 – 2017",
+        "description": "Developed telecom billing middleware components for North African carriers."
+      }
+    ],
+    "education": {
+      "degree": "B.Sc. Computer Engineering",
+      "institution": "Cairo University",
+      "year": "2016"
+    },
+    "languages": ["Arabic", "English"],
+    "salaryExpectation": "$6,000 – $8,000 / month"
+  },
+  {
+    "id": "c024",
+    "fullName": "Lina Nasser",
+    "headline": "Frontend Engineer | React · Animations · Motion Design",
+    "location": "Beirut, Lebanon",
+    "yearsOfExperience": 3,
+    "seniority": "Mid",
+    "skills": ["React", "Framer Motion", "GSAP", "TypeScript", "Three.js", "CSS"],
+    "availability": "Immediate",
+    "updatedAt": "2025-04-30",
+    "status": "Open to work",
+    "score": 72,
+    "about": "Frontend engineer at the intersection of engineering and motion design. Creates immersive web experiences with smooth animations that delight users. Side projects regularly featured on CSS-Tricks and Codrops.",
+    "experience": [
+      {
+        "id": "e24-1",
+        "company": "Lebify Agency",
+        "title": "Creative Frontend Engineer",
+        "period": "2023 – Present",
+        "description": "Built award-winning campaign microsite for a luxury brand with GSAP scroll-driven storytelling. Developed WebGL particle system for interactive brand visualisation."
+      },
+      {
+        "id": "e24-2",
+        "company": "Touch Lebanon",
+        "title": "Frontend Developer",
+        "period": "2022 – 2023",
+        "description": "Redesigned self-service portal with accessible motion patterns, improving user satisfaction score by 28 points."
+      }
+    ],
+    "education": {
+      "degree": "B.F.A. Interactive Media Design",
+      "institution": "Lebanese American University",
+      "year": "2022"
+    },
+    "languages": ["Arabic", "English", "French"],
+    "salaryExpectation": "$2,500 – $3,500 / month",
+    "portfolio": "https://portfolio.example.com"
+  },
+  {
+    "id": "c025",
+    "fullName": "Hassan Basem",
+    "headline": "AI Engineer | LLM Applications · RAG · Vector DBs",
+    "location": "Berlin, Germany",
+    "yearsOfExperience": 5,
+    "seniority": "Senior",
+    "skills": ["Python", "LangChain", "OpenAI", "Pinecone", "FastAPI", "Weaviate"],
+    "availability": "2 weeks",
+    "updatedAt": "2025-04-14",
+    "status": "Interviewing",
+    "score": 80,
+    "about": "AI engineer specialising in LLM application architecture, RAG pipelines, and production AI systems. Built production RAG systems serving 200K+ enterprise users. Contributor to LangChain and LlamaIndex.",
+    "experience": [
+      {
+        "id": "e25-1",
+        "company": "Aleph Alpha",
+        "title": "AI Engineer",
+        "period": "2023 – Present",
+        "description": "Designed RAG pipeline for enterprise document intelligence product. Achieved 89% answer accuracy on internal benchmarks. Led integration of multi-modal retrieval for 200K+ users."
+      },
+      {
+        "id": "e25-2",
+        "company": "SAP",
+        "title": "Senior Software Engineer",
+        "period": "2021 – 2023",
+        "description": "Built NLP-powered invoice processing pipeline processing 1M+ documents monthly. Reduced manual review rate from 40% to 8% using ensemble ML models."
+      },
+      {
+        "id": "e25-3",
+        "company": "Valeo (Egypt R&D)",
+        "title": "Software Engineer",
+        "period": "2020 – 2021",
+        "description": "Computer vision feature engineering for ADAS systems. Worked with CARLA simulation data."
+      }
+    ],
+    "education": {
+      "degree": "M.Sc. Computer Science (AI Specialisation)",
+      "institution": "TU Berlin",
+      "year": "2021"
+    },
+    "languages": ["Arabic", "English", "German"],
+    "salaryExpectation": "$8,000 – $11,000 / month",
+    "github": "https://github.com"
+  }
+]

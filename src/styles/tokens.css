@@ -1,0 +1,115 @@
+/* ─── Vanta Design Tokens ──────────────────────────────────────────────────── */
+
+:root {
+  /* ── Color: Base ── */
+  --c-bg:         #07070d;
+  --c-surface-1:  #0f0f1a;
+  --c-surface-2:  #181826;
+  --c-surface-3:  #202030;
+  --c-border:     #2b2b42;
+  --c-border-sub: #1a1a2a;
+
+  /* ── Color: Brand ── */
+  --c-primary:       #9b8dff;
+  --c-primary-hover: #b4a8ff;
+  --c-primary-dim:   rgba(155, 141, 255, 0.12);
+  --c-primary-glow:  rgba(155, 141, 255, 0.25);
+
+  --c-accent:       #ff9047;
+  --c-accent-hover: #ffac72;
+  --c-accent-dim:   rgba(255, 144, 71, 0.12);
+
+  /* ── Color: Text ── */
+  --c-text-1: #eeecfc;
+  --c-text-2: #9e9cbe;
+  --c-text-3: #5a5878;
+
+  /* ── Color: Status ── */
+  --c-open:          #4ade80;
+  --c-open-dim:      rgba(74, 222, 128, 0.12);
+  --c-interviewing:  #facc15;
+  --c-interviewing-dim: rgba(250, 204, 21, 0.12);
+  --c-hired:         #60a5fa;
+  --c-hired-dim:     rgba(96, 165, 250, 0.12);
+  --c-not-looking:   #f87171;
+  --c-not-looking-dim: rgba(248, 113, 113, 0.12);
+
+  /* ── Color: Semantic ── */
+  --c-success: #4ade80;
+  --c-danger:  #f87171;
+  --c-warning: #facc15;
+
+  /* ── Typography ── */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body:    'Outfit', system-ui, sans-serif;
+
+  --text-xs:   0.6875rem; /* 11px */
+  --text-sm:   0.8125rem; /* 13px */
+  --text-base: 0.9375rem; /* 15px */
+  --text-md:   1rem;      /* 16px */
+  --text-lg:   1.125rem;  /* 18px */
+  --text-xl:   1.25rem;   /* 20px */
+  --text-2xl:  1.5rem;    /* 24px */
+  --text-3xl:  1.875rem;  /* 30px */
+  --text-4xl:  2.375rem;  /* 38px */
+  --text-5xl:  3.25rem;   /* 52px */
+
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  --leading-tight:  1.15;
+  --leading-snug:   1.35;
+  --leading-normal: 1.6;
+
+  /* ── Spacing ── */
+  --sp-1:  0.25rem;
+  --sp-2:  0.5rem;
+  --sp-3:  0.75rem;
+  --sp-4:  1rem;
+  --sp-5:  1.25rem;
+  --sp-6:  1.5rem;
+  --sp-8:  2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  /* ── Radius ── */
+  --r-sm:   4px;
+  --r-md:   8px;
+  --r-lg:   12px;
+  --r-xl:   16px;
+  --r-2xl:  20px;
+  --r-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm:   0 1px 4px rgba(0, 0, 0, 0.4);
+  --shadow-md:   0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg:   0 8px 40px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 32px rgba(155, 141, 255, 0.18);
+
+  /* ── Transitions ── */
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:   cubic-bezier(0.4, 0, 1, 1);
+  --ease-inout: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --dur-fast:  300ms;
+  --dur-base:  400ms;
+  --dur-slow:  500ms;
+
+  /* ── Layout ── */
+  --max-w-content: 1280px;
+  --max-w-text:    680px;
+
+  /* ── Z-index layers ── */
+  --z-base:    0;
+  --z-raised:  10;
+  --z-dropdown: 100;
+  --z-overlay: 200;
+  --z-modal:   300;
+  --z-toast:   400;
+}

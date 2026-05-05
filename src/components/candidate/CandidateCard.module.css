@@ -1,0 +1,185 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  background: var(--c-surface-1);
+  border: 1px solid var(--c-border-sub);
+  border-radius: var(--r-xl);
+  padding: var(--sp-5);
+  transition:
+    border-color  var(--dur-base) var(--ease-out),
+    box-shadow    var(--dur-base) var(--ease-out),
+    transform     var(--dur-base) var(--ease-out),
+    background    var(--dur-base) var(--ease-out);
+  overflow: hidden;
+  height: 100%;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: rgba(155, 141, 255, 0.4);
+  box-shadow: 0 12px 30px -10px rgba(155, 141, 255, 0.15), 0 0 0 1px rgba(155, 141, 255, 0.1);
+  transform: translateY(-4px) scale(1.01);
+  background: var(--c-surface-2);
+}
+
+.card.shortlisted {
+  border-color: rgba(155, 141, 255, 0.35);
+  background: linear-gradient(135deg, var(--c-surface-1) 0%, rgba(155, 141, 255, 0.04) 100%);
+}
+
+.card.rejected {
+  opacity: 0.55;
+  filter: grayscale(0.4);
+}
+
+/* ── Ribbons ── */
+.shortlistRibbon,
+.rejectRibbon {
+  align-self: flex-start;
+  font-size: 10px;
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: var(--r-full);
+}
+
+.shortlistRibbon {
+  color: var(--c-primary);
+  background: var(--c-primary-dim);
+  border: 1px solid rgba(155, 141, 255, 0.3);
+}
+
+.rejectRibbon {
+  color: var(--c-danger);
+  background: var(--c-not-looking-dim);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+}
+
+/* ── Top row ── */
+.top {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+}
+
+.avatar {
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  border-radius: 50%;
+  background: hsl(calc(var(--avatar-hue)), 45%, 22%);
+  border: 2px solid hsl(calc(var(--avatar-hue)), 55%, 35%);
+  color: hsl(calc(var(--avatar-hue)), 70%, 75%);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out);
+}
+
+.card:hover .avatar {
+  transform: scale(1.05) rotate(-3deg);
+  box-shadow: 0 0 15px rgba(155, 141, 255, 0.3);
+}
+
+.nameBlock {
+  flex: 1;
+  min-width: 0;
+  padding-right: var(--sp-2);
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: var(--text-md);
+  font-weight: var(--weight-medium);
+  color: var(--c-text-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+}
+
+.headline {
+  font-size: var(--text-xs);
+  color: var(--c-text-2);
+  line-height: var(--leading-snug);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Meta ── */
+.meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--text-xs);
+  color: var(--c-text-3);
+}
+
+.dot {
+  font-size: var(--text-xs);
+  color: var(--c-surface-3);
+}
+
+/* ── Skills ── */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-top: var(--sp-1);
+}
+
+.moreSkills {
+  font-size: var(--text-xs);
+  color: var(--c-text-3);
+  padding: 0.25rem 0.5rem;
+  background: var(--c-surface-2);
+  border-radius: var(--r-full);
+  border: 1px solid var(--c-border-sub);
+}
+
+/* ── Footer ── */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--c-border-sub);
+}
+
+.viewBtn {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--c-primary);
+  text-decoration: none;
+  transition: all var(--dur-base) var(--ease-out);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+
+.card:hover .viewBtn {
+  color: var(--c-primary-hover);
+  letter-spacing: 0.02em;
+  transform: translateX(4px);
+}
+
+.updated {
+  font-size: var(--text-xs);
+  color: var(--c-text-3);
+}
