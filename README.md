@@ -118,6 +118,8 @@ src/
 
 ---
 
+---
+
 ## Tradeoffs & Next Improvements
 
 | Tradeoff | Rationale |
@@ -136,3 +138,34 @@ src/
 - Recruiter notes per candidate (textarea → localStorage)
 - Pagination or infinite scroll
 - Dark/light mode toggle (tokens are already structured for it)
+
+---
+
+## Deployment
+
+### Vercel / Netlify (Recommended)
+This is a Single Page Application (SPA). When deploying to Vercel or Netlify, ensure that all routes are redirected to `index.html`.
+
+**For Vercel (`vercel.json`):**
+```json
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+```
+
+**For Netlify (`_redirects`):**
+```text
+/*  /index.html  200
+```
+
+### Production Build
+```bash
+npm run build
+```
+The output will be in the `dist/` directory. You can preview the production build locally using `npm run preview`.
+
+---
+
+## License & Versioning
+- **License**: [MIT](LICENSE)
+- **Version**: 1.0.0 — [View Release Notes](RELEASE_NOTES.md)
