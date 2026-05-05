@@ -315,7 +315,7 @@ function ScoreRing({ score }: { score: number }) {
   const r = 38;
   const circ = 2 * Math.PI * r;
   const [currentScore, setCurrentScore] = useState(0);
-  const ref = useRef<SVGSVGElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     let animationFrame: number;
