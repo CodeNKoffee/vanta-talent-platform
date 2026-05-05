@@ -32,7 +32,7 @@ const mockCandidate: Candidate = {
   updatedAt: new Date().toISOString(),
   about: '',
   experience: [],
-  education: { degree: '', institution: '', year: 2020 },
+  education: { degree: '', institution: '', year: '2020' },
   languages: [],
 };
 

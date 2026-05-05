@@ -1,4 +1,4 @@
-import React, { useId, useMemo } from 'react';
+import { useId, useMemo } from 'react';
 import type { FilterState } from '@/types/filters';
 import type { ActiveFilter } from '@/types/filters';
 import { Input, Select } from '@/components/ui/Input';

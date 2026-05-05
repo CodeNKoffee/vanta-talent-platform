@@ -12,6 +12,7 @@ A polished recruitment web experience built with Vite + React + TypeScript.
 npm install
 npm run dev        # http://localhost:5173
 npm run build      # production build
+npm test           # run vitest suite
 ```
 
 ---
@@ -79,7 +80,14 @@ Full design token system in `src/styles/tokens.css` (colors, typography scale, s
 ### 5. Error boundary + fallback UI
 Class-based `ErrorBoundary` wraps both the app root and the profile route independently. The profile route can fail without breaking the main page. Graceful error states in the grid (with retry callback) and profile page (with back navigation).
 
-### 6. Strong type safety
+### 6. Testing (Vitest + Testing Library)
+Comprehensive test suite covering:
+- **Unit tests** for filtering logic (`src/utils/candidateFilters.test.ts`)
+- **Hook tests** for URL state management (`src/hooks/useUrlFilters.test.tsx`)
+- **Component tests** for interactive cards (`src/components/candidate/CandidateCard.test.tsx`)
+- **CI/CD pipeline** via GitHub Actions to ensure code quality on every push.
+
+### 7. Strong type safety
 - All data types in `src/types/` with strict interfaces
 - No `any` anywhere in the codebase
 - `CandidateStatus`, `Availability`, `Seniority` are string literal union types
@@ -124,13 +132,11 @@ src/
 
 | Tradeoff | Rationale |
 |---|---|
-| No test suite | Prioritised polish and architecture within timebox; hooks and utils are pure functions — straightforward to test with Vitest |
 | localStorage (not URL) for actions | Shortlist/reject state is user-session data, not shareable state — localStorage is the right primitive here |
 | Mock data vs real API | 25 curated profiles demonstrate richer UX than random API data with missing fields |
 | Single CSS bundle | CSS Modules per component avoids global collisions without a build step overhead |
 
 ### Next Improvements
-- Add Vitest + Testing Library tests for `applyFilters`, `useUrlFilters`, and `CandidateCard`
 - Keyboard-navigable filter panel (combobox pattern for skill/location dropdowns)
 - Optimistic mutations with a proper cache layer (React Query or SWR)
 - Virtualised list for large datasets (TanStack Virtual)

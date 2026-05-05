@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react';
+import { useCallback, useRef } from 'react';
 import { Hero } from '@/components/candidate/Hero';
 import { CandidateGrid } from '@/components/candidate/CandidateGrid';
 import { FilterBar } from '@/components/filters/FilterBar';

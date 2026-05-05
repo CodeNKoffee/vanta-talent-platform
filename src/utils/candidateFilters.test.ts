@@ -18,7 +18,7 @@ const mockCandidates: Candidate[] = [
     updatedAt: '2024-05-01T10:00:00Z',
     about: '',
     experience: [],
-    education: { degree: '', institution: '', year: 2020 },
+    education: { degree: '', institution: '', year: '2020' },
     languages: [],
   },
   {
@@ -35,7 +35,7 @@ const mockCandidates: Candidate[] = [
     updatedAt: '2024-05-02T10:00:00Z',
     about: '',
     experience: [],
-    education: { degree: '', institution: '', year: 2021 },
+    education: { degree: '', institution: '', year: '2021' },
     languages: [],
   }
 ];

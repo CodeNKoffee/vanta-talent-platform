@@ -58,7 +58,7 @@ export function Select({ label, inlinePrefix, options, id, className = '', value
   };
 
   return (
-    <div className={[styles.wrapper, className].join(' ')} ref={dropdownRef}>
+    <div className={[styles.wrapper, className, isOpen ? styles.isOpen : ''].join(' ')} ref={dropdownRef}>
       {label && (
         <label htmlFor={selectId} className={styles.label}>
           {label}
@@ -78,9 +78,13 @@ export function Select({ label, inlinePrefix, options, id, className = '', value
             {inlinePrefix && <span className={styles.inlinePrefix}>{inlinePrefix}</span>}
             {selectedOption?.label}
           </span>
-          <span className={styles.chevron} aria-hidden="true">{isOpen ? '▴' : '▾'}</span>
+          <span className={styles.chevron} aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
         </button>
-        {isOpen && (
+        <div className={styles.dropdownContainer}>
           <ul className={styles.dropdownList} role="listbox">
             {options.map((opt) => (
               <li
@@ -94,7 +98,7 @@ export function Select({ label, inlinePrefix, options, id, className = '', value
               </li>
             ))}
           </ul>
-        )}
+        </div>
       </div>
     </div>
   );

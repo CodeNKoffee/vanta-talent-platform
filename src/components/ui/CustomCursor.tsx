@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { fromEvent, animationFrames } from 'rxjs';
 import styles from './CustomCursor.module.css';
 
