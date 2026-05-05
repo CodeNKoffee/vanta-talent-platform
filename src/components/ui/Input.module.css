@@ -100,7 +100,7 @@
   right: var(--sp-3);
   pointer-events: none;
   color: var(--c-text-3);
-  transition: transform var(--dur-normal) var(--ease-out);
+  transition: transform var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
 }
 
 .isOpen .chevron {
@@ -113,14 +113,14 @@
   top: calc(100% + 4px);
   left: 0;
   width: 100%;
-  z-index: 50;
+  z-index: 100;
   display: grid;
   grid-template-rows: 0fr;
   opacity: 0;
   pointer-events: none;
-  transition: grid-template-rows var(--dur-normal) var(--ease-out),
-              opacity            var(--dur-normal) var(--ease-out),
-              transform          var(--dur-normal) var(--ease-out);
+  transition: grid-template-rows var(--dur-fast) var(--ease-out),
+              opacity            var(--dur-fast) var(--ease-out),
+              transform          var(--dur-fast) var(--ease-out);
   transform: translateY(-4px);
 }
 
@@ -134,13 +134,14 @@
 .dropdownList {
   width: 100%;
   max-height: 250px;
-  overflow: hidden; /* Changed from auto to hidden for the grid trick */
+  min-height: 0; /* Required for grid trick */
+  overflow: hidden;
   background: var(--c-surface-1);
   border: 1px solid var(--c-border);
   border-radius: var(--r-md);
   box-shadow: var(--shadow-lg);
   margin: 0;
-  padding: 0; /* Move padding to inner to avoid jump */
+  padding: 0;
   list-style: none;
 }
 
