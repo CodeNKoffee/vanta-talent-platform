@@ -42,7 +42,7 @@ describe('CandidateCard', () => {
       isShortlisted: () => false,
       isRejected: () => false,
       getStatus: (_id: string, s: CandidateStatus) => s,
-    } as any);
+    } as unknown as ReturnType<typeof useAppContext>);
 
     render(
       <BrowserRouter>
@@ -61,7 +61,7 @@ describe('CandidateCard', () => {
       isShortlisted: () => false,
       isRejected: () => false,
       getStatus: (_id: string, s: CandidateStatus) => s,
-    } as any);
+    } as unknown as ReturnType<typeof useAppContext>);
 
     render(
       <BrowserRouter>
@@ -78,7 +78,7 @@ describe('CandidateCard', () => {
       isShortlisted: () => true,
       isRejected: () => false,
       getStatus: (_id: string, s: CandidateStatus) => s,
-    } as any);
+    } as unknown as ReturnType<typeof useAppContext>);
 
     render(
       <BrowserRouter>
