@@ -130,7 +130,7 @@ export const CandidateCard = memo(function CandidateCard({ candidate, onSkillCli
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
-          handleCardClick(e as any);
+          handleCardClick(e as unknown as React.MouseEvent);
         }
       }}
     >

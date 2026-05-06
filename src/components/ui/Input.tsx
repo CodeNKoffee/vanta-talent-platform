@@ -52,7 +52,8 @@ export function Select({ label, inlinePrefix, options, id, className = '', value
 
   const handleSelect = (val: string) => {
     if (onChange) {
-      onChange({ target: { value: val } } as any);
+      const event = { target: { value: val } } as React.ChangeEvent<HTMLSelectElement>;
+      onChange(event);
     }
     setIsOpen(false);
   };
@@ -72,7 +73,7 @@ export function Select({ label, inlinePrefix, options, id, className = '', value
           onClick={() => setIsOpen(!isOpen)}
           aria-haspopup="listbox"
           aria-expanded={isOpen}
-          {...(rest as any)}
+          {...(rest as React.ButtonHTMLAttributes<HTMLButtonElement>)}
         >
           <span className={styles.btnText}>
             {inlinePrefix && <span className={styles.inlinePrefix}>{inlinePrefix}</span>}

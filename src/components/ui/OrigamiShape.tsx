@@ -146,10 +146,12 @@ export function OrigamiShape({
     };
     animate();
 
+    const currentMount = mountRef.current;
+
     return () => {
       cancelAnimationFrame(animationId);
-      if (mountRef.current && renderer.domElement) {
-        mountRef.current.removeChild(renderer.domElement);
+      if (currentMount && renderer.domElement) {
+        currentMount.removeChild(renderer.domElement);
       }
       geometry.dispose();
       material.dispose();

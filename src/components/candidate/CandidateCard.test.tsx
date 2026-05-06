@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { CandidateCard } from './CandidateCard';
 import { BrowserRouter } from 'react-router-dom';
 import { useAppContext } from '@/store/AppContext';
-import type { Candidate } from '@/types/candidate';
+import type { Candidate, CandidateStatus } from '@/types/candidate';
 
 vi.mock('@/store/AppContext', () => ({
   useAppContext: vi.fn(),
@@ -38,10 +38,10 @@ const mockCandidate: Candidate = {
 
 describe('CandidateCard', () => {
   it('renders candidate information correctly', () => {
-    (useAppContext as any).mockReturnValue({
+    vi.mocked(useAppContext).mockReturnValue({
       isShortlisted: () => false,
       isRejected: () => false,
-      getStatus: (_id: string, s: string) => s,
+      getStatus: (_id: string, s: CandidateStatus) => s,
     });
 
     render(
@@ -68,10 +68,10 @@ describe('CandidateCard', () => {
   });
 
   it('shows shortlisted ribbon when candidate is shortlisted', () => {
-    (useAppContext as any).mockReturnValue({
+    vi.mocked(useAppContext).mockReturnValue({
       isShortlisted: () => true,
       isRejected: () => false,
-      getStatus: (_id: string, s: string) => s,
+      getStatus: (_id: string, s: CandidateStatus) => s,
     });
 
     render(

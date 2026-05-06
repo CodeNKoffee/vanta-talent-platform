@@ -1,7 +1,7 @@
 import { useId, useMemo } from 'react';
 import type { FilterState } from '@/types/filters';
 import type { ActiveFilter } from '@/types/filters';
-import { Input, Select } from '@/components/ui/Input';
+import { Select } from '@/components/ui/Input';
 import { Tag } from '@/components/ui/Tag';
 import { getCandidateMeta } from '@/services/candidateService';
 import styles from './FilterBar.module.css';
