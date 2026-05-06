@@ -42,7 +42,7 @@ describe('CandidateCard', () => {
       isShortlisted: () => false,
       isRejected: () => false,
       getStatus: (_id: string, s: CandidateStatus) => s,
-    });
+    } as any);
 
     render(
       <BrowserRouter>
@@ -57,6 +57,12 @@ describe('CandidateCard', () => {
   });
 
   it('navigates to candidate profile on click', () => {
+    vi.mocked(useAppContext).mockReturnValue({
+      isShortlisted: () => false,
+      isRejected: () => false,
+      getStatus: (_id: string, s: CandidateStatus) => s,
+    } as any);
+
     render(
       <BrowserRouter>
         <CandidateCard candidate={mockCandidate} />
@@ -72,7 +78,7 @@ describe('CandidateCard', () => {
       isShortlisted: () => true,
       isRejected: () => false,
       getStatus: (_id: string, s: CandidateStatus) => s,
-    });
+    } as any);
 
     render(
       <BrowserRouter>
